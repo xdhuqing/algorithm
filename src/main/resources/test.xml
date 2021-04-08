@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="pojoClass" class="PojoClass">
+		<description>
+			I have no properties and I'm happy without them.
+		</description>
+	</bean>
+
+
+
+	<bean id="commentsInValue" class="CommentsInValue">
+	  <property name="name"><value>this is<!-- don't mind me --> a <![CDATA[<!--comment-->]]></value></property>
+	</bean>
+
+</beans>

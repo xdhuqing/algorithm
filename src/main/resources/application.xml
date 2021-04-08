@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="myPojo" class="com.hq.learnning.beans.MyPojo">
+		<description>
+			I have no properties and I'm happy without them.
+		</description>
+	</bean>
+
+
+
+	<bean id="myPojoWithProperty" class="com.hq.learnning.beans.MyPojoWithProperty">
+	  <property name="name"><value>bruse</value></property>
+	</bean>
+
+
+
+	<bean id="testBeanFactoryAware" class="com.hq.learnning.beans.TestBeanFactoryAware">
+
+	</bean>
+
+
+
+</beans>
